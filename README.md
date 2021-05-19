@@ -6,9 +6,9 @@ Bom, estava procurando ideias de projetos para treinar meu JavaScript e encontre
 
 Fiz o design (inspirado no da web) e mudei cores e medidas para a que me agradava melhor... Utilizei HTML e CSS puro
 
-![Imagem da Calculadora](calc_imc.jpeg =300x250)
+<img src="calc_imc.jpeg">
 
 Após conseguir deixar como queria, fui para a mente da coisa.
 Como a fórmula é pequena, apenas peguei os inputs, armazenei na variável, validei os dados e joguei na fórmula. Utilizei Math.round no resultado para não ficar muito confuso.
 
-![Imagem do Código](cod_calc_imc.jpeg =300x250)
+<img src="cod_calc_imc.jpeg">
