@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  border: none;
+
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #d691f8;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #8107be;
+  width: 25vw;
+  height: 75vh;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px #8107be;
+}
+
+main h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem;
+  border-bottom: solid .2rem #000;
+  width: 25vw;
+}
+
+main form {
+  padding: 1.2rem 3rem 2rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main form label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1.3rem;
+}
+
+main form input {
+  height: 2rem;
+  margin-top: 1rem;
+  padding-left: .5rem;
+  border-radius: .2rem;
+  outline: hidden;
+}
+
+main form .column1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+main form .column2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+main .calc {
+  font-size: 1.2rem;
+  width: 72%;
+  padding: .7rem;
+  margin-bottom: 2rem;
+  border-radius: .2rem;
+  background: black;
+  color: #8107be;
+  cursor: pointer;
+  transition: .5s;
+}
+
+main .calc:hover {
+  background: transparent;
+  color: black;
+  border: 1px solid black;
+}
+
+main #text {
+  padding: 0 .5rem;
+  width: 245px;
+  height: 100px;
+  margin-bottom: 2.5rem;
+  border-radius: .3rem;
+  background: black;
+  color: #8107be;
+  box-shadow: 0 0 20px #000;
+}
