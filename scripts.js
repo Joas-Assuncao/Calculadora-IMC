@@ -8,13 +8,13 @@ function calcular() {
         alert('Complete todos os dados!')
     } else {
         var name = String(txtName.value);
-        var height = parseFloat(nmbHeight.value);
+        var height = (nmbHeight.value).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
         var weight = Number(nmbWeight.value);
 
         
         var imc = Math.round(weight / (height * height));
         res.innerText = (`
-            ${name}, você tem ${height} de altura e ${weight} de peso, então seu IMC é de ${imc}.
+            ${ name }, você tem ${ height } de altura e ${ weight } de peso, então seu IMC é de ${ imc }.
             O IMC ideal fica entre 18,5 e 24,9.
         `);
     }
